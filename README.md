@@ -16,6 +16,8 @@ Control structures:
 - while
 
 ## Instructions
+| Instruction | Action |
+| --- | --- |
 | Mulligan  | Push 0 onto the stack |
 | Tee-Off | Duplicate top stack value |
 | Swing | Add one to top stack value |
