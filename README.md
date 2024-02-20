@@ -1,19 +1,12 @@
 # Interpreted Language
+An esoteric programming language writen in python inspired by [Beescript](https://esolangs.org/wiki/BeeScript) and [Ultimate](https://github.com/dgriff24/ultimate)
 
 ## Key Features:
 
-Stack Based
-
-Variables
-
-- These should be able to store some value
-
-Control structures:
-
-- if
-- else
-- for
-- while
+- Stack Based
+- Able to print output
+- Able to take input as string or character 
+   
 
 ## Instructions
 | Instruction | Action |
