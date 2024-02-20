@@ -17,7 +17,6 @@ Control structures:
 
 ## Instructions
 | Mulligan  | Push 0 onto the stack |
-| --- | --- |
 | Tee-Off | Duplicate top stack value |
 | Swing | Add one to top stack value |
 | Relief | Pops A and then B from the stack and pushes B - A to the stack |
