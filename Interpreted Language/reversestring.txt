@@ -1,0 +1,10 @@
+# take input until user enters 48
+Mulligan
+Drive
+
+Chip
+Tee-Off
+Punch 5
+
+
+
