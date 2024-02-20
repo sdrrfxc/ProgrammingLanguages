@@ -1,5 +1,5 @@
 import sys
-fileName = "reversestring.txt"
+fileName = "Examples/reversestring.txt"
 lines = []
 try:
     # fileName = sys.argv[1]
