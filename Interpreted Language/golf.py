@@ -1,8 +1,8 @@
 import sys
-fileName = "Examples/reversestring.txt"
+fileName = "Examples/repeater.txt"
 lines = []
 try:
-    # fileName = sys.argv[1]
+
     file = open(fileName, 'r')
     lines = file.read().split("\n")
 
@@ -41,14 +41,18 @@ while 0 <= pc < len(lines):
     elif instruction == "Relief":
         a = pop()
         b = pop()
-        stack.append(b - a)
+        stack.append(int(b) - int(a))
+    elif instruction == "Chunk":
+        a = pop()
+        b = pop()
+        stack.append(int(a) * int(b))
     elif instruction == "Putt":
         try:
             stack.append(ord(input(" "[0])))
         except IndexError:
             stack.append(0)
     elif instruction == "Chip":
-        print(chr(pop()))
+        print(chr(int(pop())))
     elif instruction == "Flop":
         print(int(pop()))
     elif instruction == "Punch":
@@ -76,6 +80,15 @@ while 0 <= pc < len(lines):
             stack.append(top)
         except:
             error("Error: Invalid instruction argument for Provisional")
+    elif instruction == "Score":
+        top = pop()
+        try:
+            if(chr(top).isdigit() != True):
+                error("Error: expected int ")
+            stack.insert(0, chr(top))
+        except:
+            error("Error: expected int ")
+
 
     elif instruction == "Hook":
         top = pop()
