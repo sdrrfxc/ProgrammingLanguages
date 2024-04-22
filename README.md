@@ -23,4 +23,6 @@ An esoteric programming language writen in python inspired by [Beescript](https:
 | Hook | Pop the top of the stack and push it to the bottom |
 | Slice | Remove the bottom value of the stack and push it to the top |
 | Drive | Take string of input and push ascii characters of each character to the stack |
+| Score | Pop top value and convert to int value from ascii code then push back to stack |
+| Chunk | Pops A and then B from the stack and pushes A * B to the stack |
 | Lightning | Terminate program execution |
